@@ -30,14 +30,16 @@ header {
     border-radius: 5px;
     margin-bottom: 25px; }
     .row .card .container {
-      margin: 0px 27px 21px; }
+      margin: 0px 27px;
+      padding: 0 0 1px; }
       .row .card .container p {
         font-size: 81%;
         margin-top: 2px;
         margin-bottom: 31px;
         line-height: 24px; }
       .row .card .container .icons {
-        text-align: right; }
+        text-align: right;
+        margin-bottom: 21px; }
         .row .card .container .icons .icon-imgs {
           width: 57px; }
   .row .border-top-color-cyan {
@@ -51,16 +53,26 @@ header {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .row {
-    display: flex;
-    align-items: center; }
-    .row .card {
-      max-width: 300px; }
-    .row .middle {
+  main {
+    width: 100%;
+    max-width: 1175px;
+    margin: 0 auto; }
+    main .header {
+      width: 600px;
+      margin: auto; }
+      main .header h1 {
+        font-size: 228%;
+        line-height: 49px; }
+    main .row {
       display: flex;
-      flex-flow: column wrap;
-      margin: 0 25px;
-      align-content: center; } }
+      align-items: center; }
+      main .row .middle {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0 25px;
+        align-content: center; }
+      main .row .card {
+        max-width: 355px; } }
 footer {
   margin: 15px 35px;
   text-align: center; }
