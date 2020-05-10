@@ -8,20 +8,21 @@ body {
   body p {
     font-size: 15px; }
   body h1, body h4 {
-    font-size: 100%;
-    color: #4c4e61; }
+    font-size: 123%;
+    color: #4c4e61;
+    margin: 23px 0 0 0; }
 
 header {
-  margin: 85px 35px 75px;
+  margin: 83px 35px 75px;
   text-align: center; }
   header .title {
     font-weight: 200; }
   header h1 {
-    font-size: 157%; }
+    font-size: 153%; }
 
 .row {
   display: block;
-  margin: 75px 33px; }
+  margin: 81px 33px; }
   .row .card {
     background-color: #ffffff;
     box-shadow: 0 34px 38px 0 HSLA(229, 6%, 66%, 0.3);
@@ -30,11 +31,16 @@ header {
     border-radius: 5px;
     margin-bottom: 25px; }
     .row .card .container {
-      padding: 32px 25px; }
+      padding: 0px 27px 21px; }
       .row .card .container p {
-        font-size: 90%; }
+        font-size: 81%;
+        margin-top: 2px;
+        margin-bottom: 31px;
+        line-height: 24px; }
       .row .card .container .icons {
         text-align: right; }
+        .row .card .container .icons .icon-imgs {
+          width: 57px; }
   .row .border-top-color-cyan {
     border-top: 3px solid #45d3d3; }
   .row .border-top-color-red {
@@ -43,5 +49,9 @@ header {
     border-top: 3px solid #fcaf4a; }
   .row .border-top-color-blue {
     border-top: 3px solid #549ef2; }
+
+footer {
+  margin: 15px 35px;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

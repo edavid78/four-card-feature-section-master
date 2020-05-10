@@ -11,19 +11,20 @@ body {
         font-size: 15px;
     }
     h1, h4 {
-        font-size: 100%;
-        color: hsl(234, 12%, 34%);
+        font-size: 123%;
+    color: #4c4e61;
+    margin: 23px 0 0 0;
     }
 }
 
 header {
-    margin: 85px 35px 75px;
+    margin: 83px 35px 75px;
     text-align: center;
     .title {
         font-weight: 200;
     }
     h1 {
-        font-size: 157%;
+        font-size: 153%;
 
     }
     
@@ -31,7 +32,7 @@ header {
 
 .row {
     display: block;
-    margin: 75px 33px;
+    margin: 81px 33px;
     .card {
         background-color: #ffffff;
         box-shadow: 0 34px 38px 0 HSLA(229, 6%, 66%, 0.3);
@@ -40,13 +41,19 @@ header {
         border-radius: 5px;
         margin-bottom: 25px;
         .container {
-            padding: 32px 25px;
+            padding: 0px 27px 21px;
 
             p {
-                font-size: 90%;
+            font-size: 81%;
+            margin-top: 2px;
+            margin-bottom: 31px;
+            line-height: 24px;
             }
             .icons {
                 text-align: right;
+                .icon-imgs {
+                    width: 57px;
+                }
             }
           }
       }
@@ -67,6 +74,13 @@ header {
 }
 }
 
+
+
+footer {
+    margin: 15px 35px;
+    text-align: center;
+    
+}
 
 
 
