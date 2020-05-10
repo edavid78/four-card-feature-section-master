@@ -37,11 +37,12 @@ header {
         background-color: #ffffff;
         box-shadow: 0 34px 38px 0 HSLA(229, 6%, 66%, 0.3);
         transition: 0.3s;
-        width: 100%;
+        
         border-radius: 5px;
         margin-bottom: 25px;
+        
         .container {
-            padding: 0px 27px 21px;
+            margin: 0px 27px 21px;
 
             p {
             font-size: 81%;
@@ -59,6 +60,7 @@ header {
       }
       .border-top-color-cyan {
         border-top: 3px solid hsl(180, 62%, 55%);
+       
 }
 
 .border-top-color-red {
@@ -71,10 +73,30 @@ header {
 
 .border-top-color-blue {
     border-top: 3px solid hsl(212, 86%, 64%);
+    
 }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        align-items: center;
 
+        .card {
+            max-width: 300px;
+        }
+        
+        .middle {
+            display: flex;
+            flex-flow: column wrap;
+            margin: 0 25px;
+            align-content: center;
+  
+        }
+    }
+
+}
 
 footer {
     margin: 15px 35px;
